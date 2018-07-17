@@ -1,0 +1,280 @@
+@charset "utf-8";
+*{
+	font-size: 12px;
+	color: #666;
+	margin: 0;
+	padding: 0;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
+/* 顶部1 */
+#header0101{
+	width: 100%
+	margin: 0 auto;
+}
+#header01{
+	background-color: #FFFAD0;
+	height: 28px;
+	line-height: 28px;
+}
+#top_left{
+	float: left;
+	margin-left: 180px;
+}
+#top_right{
+	float: right;
+	margin-right: 180px;
+}
+#top_right ul li{
+	list-style: none;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: url('img/splitter3.jpg') no-repeat center right;
+}
+#top_right ul li.phone_1{
+	background: none;
+	padding-right: 0px;
+}
+#top_right ul li.phone_2{
+	background: none;
+	padding-left: 0px;
+}
+#top_right ul li span{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+/* 顶部2 */
+#header02{
+	width: 100%;
+	height: 91px;
+	margin: 0 auto;
+	margin-left: 180px;
+	background: url('img/logo.jpg') no-repeat;
+	border-top: 1px solid transparent;
+}
+#header02 ul li{
+	list-style: none;
+	margin-top: 47px;
+	float: left;
+	width: 100px;
+	background: url('img/nav.jpg') no-repeat;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 41px;
+	font-weight: bold;
+}
+#header02 ul{
+	margin-left: 300px;
+}
+#header02 ul li:hover{
+	background: url('img/nav-on.jpg') no-repeat;
+}
+#header02 ul li:hover a{
+	color: white;
+}
+#header02 ul li.nav_on{
+	background: url('img/nav-on.jpg') no-repeat;
+	font-size: 16px;
+	font-weight: bold;
+}
+#header02 ul li.nav_on a{
+	color: white;
+}
+/* 顶部3 */
+#header03{
+	background-color: #157128;
+	height: 30px;
+	width: 100%;
+}
+#header0301{
+	width: 100%
+	margin: 0 auto;
+}
+#fenlei{
+	float: left;
+	width: 207px;
+	background: url('img/cat_title.jpg') no-repeat;
+	height: 30px;
+	line-height: 40px;
+	margin-left: 180px;
+}
+#fenlei p{
+	margin-left: 20px;
+	font-weight: bold;
+	background: url('img/arrow_down.jpg') no-repeat 80% 50%;
+}
+#search{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+#search input.text_in{
+	height: 20px;
+	width: 100px;
+}
+#search input{
+	vertical-align: middle;
+}
+#hot{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+#hot ul li{
+	list-style: none;
+	float: left;
+	padding-left: 10px;
+	color: white;
+	font-weight: bold;
+}
+#hot ul li a{
+	color: white;
+	font-weight: normal;
+}
+#cart{
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 180px;
+}
+#cart ul li{
+	list-style: none;
+	float: left;
+}
+#cart_1{
+	width: 170px;
+	text-align: center;
+	background: url('img/i_cart_1.jpg') no-repeat;
+}
+#cart_1 img{
+	margin-left: 10px;
+	vertical-align: middle;
+}
+#cart_2{
+	width: 77px;
+	background: url('img/i_cart_4.jpg') no-repeat;
+	text-align: center;
+}
+#cuxiao{
+	margin-left: 180px;
+	margin-right: 180px;
+}
+/* 主体 */
+#left{
+	float: left;
+	margin-left: 180px;
+	width: 207px;
+}
+#m_notice{
+	height: 200px;
+	border: 1px solid #157128;
+}
+#m_type{
+	height: 300px;
+	border: 1px solid #157128;
+	margin-top: 30px;
+}
+.m_title{
+	height: 30px;
+	line-height: 30px;
+	background-color: #157128;
+}
+.m_title span{
+	color: white;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.m_content dt{
+	height: 30px;
+	padding-left: 10px;
+	line-height: 30px;
+	border-bottom: 1px dotted #157128;
+}
+.m_content dl dd li{
+	height: 30px;
+	line-height: 30px;
+	padding-left: 40px;
+	list-style: none;
+	border-bottom: 1px dotted #157128;
+	background: url('img/agree_item.gif') no-repeat 5% 50%;
+}
+#right{
+	float: right;
+	margin-right: 180px;
+}
+.mc_list{
+	height: 200px;
+	padding-top: 15px;
+	border-top: 1px dotted #157128;
+}
+.mc_image{
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+.mc_image img{
+	height: 150px;
+	width: 200px;
+	border: 1px solid #BCBCBC;
+}
+.mc_image p{
+	background: url('img/search.gif') no-repeat 35% 50%;
+	height: 25px;
+	padding-left: 30px;
+	line-height: 25px;
+	font-size: 14px;
+	text-align: center;
+}
+.mc_image p a{
+	color: #157128;
+}
+.mc_info{
+	float: right;
+	height: 200px;
+	width: 400px;
+	margin-left: 20px;
+}
+.mc_info .mc_title{
+	color: green;
+	font-weight: bold;
+	height: 25px;
+	line-height: 25px;
+}
+.mc_info p span{
+	font-weight: bold;
+}
+.mc_info .mc_desc{
+	height: 100px;
+}
+.mc_info .btn{
+	height: 25px;
+	text-align: right;
+}
+/* 底部 */
+#footer{
+	clear: both;
+	height: 100px;
+}
+#footer_1{
+	margin-top: 20px;
+}
+#footer_1 p{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+#footer_1 .footer_1_1{
+	margin-right: 10px;
+}
+#footer_1 .footer_1_2{
+	margin-left: 10px;
+}
+
+
